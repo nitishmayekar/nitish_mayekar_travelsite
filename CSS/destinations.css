@@ -1,0 +1,209 @@
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    height: 4rem;
+    align-items: center;
+    margin: 0%;
+}
+
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 2rem;
+
+    
+}
+
+.header__logo {
+    color: #335576;
+    font-weight: 700;
+    margin-left: 3rem;
+    text-decoration: none;
+}
+
+
+.header__nav-home {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #335576;
+}
+
+
+.header__nav-hawaii {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #335576;
+}
+
+
+.header__nav-iceland {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #335576;
+}
+
+
+.header__nav-greece {
+    text-decoration: none;
+    color: #335576;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #FEFAF5;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    height: 5rem;
+   padding-top: 1rem;
+    align-content: center;
+}
+
+.footer__contact--title {
+    color: #335576;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+
+.footer__hours--title {
+    color: #335576;
+    margin-bottom: 1rem;
+}
+
+
+.footer__social--title {
+    color: #335576;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+
+.footer__contact--subtitle {
+    color: #DB7A4E;
+   font-size: small;
+   margin-bottom: 0.5rem;
+}
+
+.footer__hours--days {
+    color: #DB7A4E;
+   font-size: small;
+}
+
+
+.footer__contact--email {
+    color: #335576;
+    font-size: small;
+    
+}
+
+
+.footer__social--logo {
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.footer__hours--time {
+    display: flex;
+    margin-right: 0.5rem;
+}
+
+
+.footer__hours--title {
+    color: #335576;
+    font-weight: 700;
+}
+
+.footer__hours--time {
+    color: #335576;
+    font-size: small;
+}
+
+
+
+/* Body */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+}
+
+
+.body {
+    background-image: url(../Assets/Images/hawaii.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.body2 {
+    background-image: url(../Assets/Images/iceland.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body3 {
+    background-image: url(../Assets/Images/greece.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body_hawaii {
+    font-size: 4rem;
+    color: #FEFAF5;
+    font-weight: 800;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    padding-top: 5rem;
+}
+
+.body_table {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+
+.body_table--friday {
+    background-color: #FEFAF5;
+    text-align: center;
+margin-bottom: 3rem;
+padding-left: 2rem;
+padding-right: 2rem;
+padding-top: 1rem;
+padding-bottom: 1rem;
+margin-right: 2rem;
+border-radius: 0.3rem;
+}
+
+.body_table--friday1 {
+font-size: large;
+font-weight: 600;
+text-decoration: underline;
+
+text-align: center;
+}
+
+.body_table--friday2 {
+    background-color: rgb(247, 241, 235);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 7rem;
+height: 2rem;
+padding-right: 1rem;
+padding-left: 1rem;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+justify-content: center;
+}

@@ -1,0 +1,244 @@
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    height: 4rem;
+    align-items: center;
+    margin: 0%;
+}
+
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 2rem;
+
+    
+}
+
+.header__logo {
+    color: #335576;
+    font-weight: 700;
+    margin-left: 3rem;
+    text-decoration: none;
+}
+
+
+.header__nav-home {
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+
+.header__nav-hawaii {
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+
+.header__nav-iceland {
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+
+.header__nav-greece {
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* Footer */
+
+.footer {
+    background-color: #FEFAF5;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    height: 5rem;
+   padding-top: 1rem;
+    align-content: center;
+}
+
+.footer__contact--title {
+    color: #335576;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+
+.footer__hours--title {
+    color: #335576;
+    margin-bottom: 1rem;
+}
+
+
+.footer__social--title {
+    color: #335576;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+
+.footer__contact--subtitle {
+    color: #DB7A4E;
+   font-size: small;
+   margin-bottom: 0.5rem;
+}
+
+.footer__hours--days {
+    color: #DB7A4E;
+   font-size: small;
+}
+
+
+.footer__contact--email {
+    color: #335576;
+    font-size: small;
+    
+}
+
+
+.footer__social--logo {
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.footer__hours--time {
+    display: flex;
+    margin-right: 0.5rem;
+}
+
+
+.footer__hours--title {
+    color: #335576;
+    font-weight: 700;
+}
+
+.footer__hours--time {
+    color: #335576;
+    font-size: small;
+}
+
+
+
+/* Body */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+/* Hero Image */
+
+.heroimage {
+    background-color: #FEFAF5;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.heroimage__image--plane {
+    height: 20rem;
+}
+
+.heroimage__discription--slogantop {
+    color: #335576;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.heroimage__discription--sloganbottom {
+    color: #335576;
+}
+
+.heroimage__discription--button {
+    background-color: #DB7A4E;
+    color: #FFFFFF;
+    border-radius: 3rem;
+    margin-top: 1rem;
+    height: 2.53rem;
+    width: 7rem;
+    font-weight: 700;
+    border: none;
+}
+
+.heroimage__discription {
+    margin-top: 2rem;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+
+
+/* Recommended Section */
+
+
+.recommendations {
+    color: #335576;
+    font-size: large;
+    font-weight: 800;
+    padding-left: 3rem;
+    margin-top: 2rem;
+}
+
+
+.recommendations__cards--image {
+    height: 20rem;
+    border-radius: 5px;
+    border: 2px;
+    border-color: black;
+    filter: blur(0.5px);
+    box-shadow: 1px 2px 10px black;
+}
+
+.recommendations__cards {
+    display: flex;
+    justify-content: center;
+}
+
+.recommendations__cards--hawaii {
+    position: relative;
+    margin-right: 2rem;
+    
+}
+
+
+.recommendations__cards--name1 {
+    position: absolute;
+    top: 18rem;
+    left: 8rem;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+.recommendations__cards--name2 {
+    position: absolute;
+    top: 18rem;
+    left: 8rem;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+.recommendations__cards--name3 {
+    position: absolute;
+    top: 18rem;
+    left: 8rem;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+.recommendations__cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
